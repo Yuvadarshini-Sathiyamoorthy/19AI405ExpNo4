@@ -15,8 +15,8 @@
     c) generate q's 8 successors and set their 
        parents to q<br>
     d) for each successor<br>
-    <ol
-        <li>If successor is the goal, stop search<br></li>
+    <ol>
+        <li> f successor is the goal, stop search<br></li>
         <li>Else, compute both g and h for successor
           successor.g = q.g + distance between
                               successor and q
