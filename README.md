@@ -1,8 +1,8 @@
 <h1>ExpNo 4 : Implement A* search algorithm for a Graph</h1> 
 
-<H3>Aim:</H3>
+<H2>Aim:</H2>
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
-<H3>Algorithm:</H3>
+<H2>Algorithm:</H2>
 
 1.  Initialize the open list
 2.  Initialize the closed list
@@ -41,7 +41,7 @@
 
 
 <hr>
-<h3>PROGRAM</h3>
+<h2>PROGRAM</h2>
 
 
 ``````
@@ -154,7 +154,7 @@ aStarAlgo('S', 'G')
 
 ```````
 <hr>
-<h3>Sample Graph I</h3>
+<h2>Sample Graph I</h2>
 
 <hr>
 
@@ -162,7 +162,7 @@ aStarAlgo('S', 'G')
 
 <hr>
 
-<h3>Sample Input</h3>
+<h2>Sample Input</h2>
 
 <hr>
 10 14 <br>
@@ -191,17 +191,17 @@ H 3 <br>
 I 1 <br>
 J 0 <br>
 <hr>
-<h3>Sample Output</h3>
+<h2>Sample Output</h2>
 <hr>
 Path found: ['A', 'F', 'G', 'I', 'J']
 <hr>
-<h3>Sample Graph II</h3>
+<h2>Sample Graph II</h2>
 <hr>
 
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/acbb09cb-ed39-48e5-a59b-2f8d61b978a3)
 
 <hr>
-<h3>Sample Input</h3>
+<h2>Sample Input</h2>
 <hr>
 6 6 <br>
 A B 2 <br>
@@ -217,10 +217,10 @@ E 7 <br>
 D 1 <br>
 G 0 <br>
 <hr>
-<h3>Sample Output</h3>
+<h2>Sample Output</h2>
 <hr>
 Path found: ['A', 'E', 'D', 'G']
 <hr>
-<h3>RESULT</h3>
+<h2>RESULT</h2>
  Implementing A * Search algorithm for a Graph using Python 3. is executed successfully.
 <hr>
