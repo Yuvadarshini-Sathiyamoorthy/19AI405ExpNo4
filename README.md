@@ -8,14 +8,14 @@
 2.  Initialize the closed list
     put the starting node on the open 
     list (you can leave its f at zero)
-3.  while the open list is not empty
+3.  while the open list is not empty<br>
     a) find the node with the least f on 
-       the open list, call it "q"
-    b) pop q off the open list
+       the open list, call it "q"<br>
+    b) pop q off the open list<br>
     c) generate q's 8 successors and set their 
-       parents to q
-    d) for each successor
-        i) if successor is the goal, stop search
+       parents to q<br>
+    d) for each successor<br>
+        i) if successor is the goal, stop search<br>
         ii) else, compute both g and h for successor
           successor.g = q.g + distance between 
                               successor and q
@@ -23,31 +23,30 @@
           successor (This can be done using many 
           ways, we will discuss three heuristics- 
           Manhattan, Diagonal and Euclidean 
-          Heuristics)
+          Heuristics)<br>
           successor.f = successor.g + successor.h
         iii) if a node with the same position as 
             successor is in the OPEN list which has a 
-           lower f than successor, skip this successor
+           lower f than successor, skip this successor<br>
         iV) if a node with the same position as 
             successor  is in the CLOSED list which has
             a lower f than successor, skip this successor
             otherwise, add  the node to the open list
-     end (for loop)
+     end (for loop)<br>
     e) push q on the closed list
-    end (while loop)
+    end (while loop)<br>
     
 
 
 
 <hr>
 <h3>PROGRAM</h3>
-```
-Name: Yuvadarshini S
-Reg No: 212221230126
-```
+
 
 ``````
-
+Name: Yuvadarshini S
+Reg No: 212221230126
+``````
 ``````
 from collections import defaultdict
 H_dist ={}
@@ -58,7 +57,7 @@ def aStarAlgo(start_node, stop_node):
     parents = {}         # parents contains an adjacency map of all nodes
     #distance of starting node from itself is zero
     g[start_node] = 0
-``````
+
     #start_node is root node i.e it has no parent nodes
     #so start_node is set to its own parent node
 
