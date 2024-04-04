@@ -15,24 +15,24 @@
     c) generate q's 8 successors and set their 
        parents to q<br>
     d) for each successor<br>
-        i) if successor is the goal, stop search<br>
-        ii) else, compute both g and h for successor
-          successor.g = q.g + distance between 
+        <li>i) if successor is the goal, stop search<br></li>
+        <li>ii) else, compute both g and h for successor
+          successor.g = q.g + distance between
                               successor and q
           successor.h = distance from goal to 
           successor (This can be done using many 
           ways, we will discuss three heuristics- 
           Manhattan, Diagonal and Euclidean 
-          Heuristics)<br>
+          Heuristics)<br></li>
           successor.f = successor.g + successor.h<br>
-        iii) if a node with the same position as 
+        <li>iii) if a node with the same position as 
             successor is in the OPEN list which has a 
-           lower f than successor, skip this successor<br>
-        iV) if a node with the same position as 
+           lower f than successor, skip this successor<br></li>
+        <li>iv) if a node with the same position as 
             successor  is in the CLOSED list which has
             a lower f than successor, skip this successor
             otherwise, add  the node to the open list
-     end (for loop)<br>
+     end (for loop)<br></li>
     e) push q on the closed list
     end (while loop)<br></p>
     
