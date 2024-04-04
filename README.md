@@ -16,8 +16,8 @@
        parents to q<br>
     d) for each successor<br>
     <ol
-        <li>i) if successor is the goal, stop search<br></li>
-        <li>ii) else, compute both g and h for successor
+        <li>If successor is the goal, stop search<br></li>
+        <li>Else, compute both g and h for successor
           successor.g = q.g + distance between
                               successor and q
           successor.h = distance from goal to 
@@ -26,10 +26,10 @@
           Manhattan, Diagonal and Euclidean 
           Heuristics)<br></li>
           successor.f = successor.g + successor.h<br>
-        <li>iii) if a node with the same position as 
+        <li>If a node with the same position as 
             successor is in the OPEN list which has a 
            lower f than successor, skip this successor<br></li>
-        <li>iv) if a node with the same position as 
+        <li>If a node with the same position as 
             successor  is in the CLOSED list which has
             a lower f than successor, skip this successor
             otherwise, add  the node to the open list
