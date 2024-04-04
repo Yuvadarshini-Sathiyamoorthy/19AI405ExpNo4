@@ -1,4 +1,5 @@
 <h1>ExpNo 4 : Implement A* search algorithm for a Graph</h1> 
+
 <H3>Aim:</H3>
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
 <H3>Algorithm:</H3>
@@ -34,13 +35,20 @@
      end (for loop)
     e) push q on the closed list
     end (while loop)
+    
 
+
+
+<hr>
 <h3>PROGRAM</h3>
 ```
 Name: Yuvadarshini S
 Reg No: 212221230126
 ```
-```
+
+``````
+
+``````
 from collections import defaultdict
 H_dist ={}
 def aStarAlgo(start_node, stop_node):
@@ -104,7 +112,7 @@ def aStarAlgo(start_node, stop_node):
         closed_set.add(n)
     print('Path does not exist!')
     return None
-
+```````
 
 #define fuction to return neighbor and its distance
 #from the passed node
@@ -115,11 +123,11 @@ def get_neighbors(v):
         return None
 def heuristic(n):
     return H_dist[n]
-          
+``````            
 #Describe your graph here
+`````
 
-
-Graph_nodes = {
+'''Graph_nodes = {
     'A': [('B', 6), ('F', 3)],
     'B': [('A', 6), ('C', 3), ('D', 2)],
     'C': [('B', 3), ('D', 1), ('E', 5)],
@@ -145,8 +153,9 @@ print(H_dist)
 Graph_nodes=graph
 print(graph)
 aStarAlgo('S', 'G')
-```
 
+```````
+<hr>
 <h3>Sample Graph I</h3>
 
 <hr>
