@@ -15,6 +15,7 @@
     c) generate q's 8 successors and set their 
        parents to q<br>
     d) for each successor<br>
+    <ol
         <li>i) if successor is the goal, stop search<br></li>
         <li>ii) else, compute both g and h for successor
           successor.g = q.g + distance between
@@ -32,7 +33,7 @@
             successor  is in the CLOSED list which has
             a lower f than successor, skip this successor
             otherwise, add  the node to the open list
-     end (for loop)<br></li>
+     end (for loop)<br></li></ol>
     e) push q on the closed list
     end (while loop)<br></p>
     
