@@ -9,7 +9,7 @@
     put the starting node on the open 
     list (you can leave its f at zero)
 3.  while the open list is not empty<br>
-   <p>         a) find the node with the least f on 
+   <p>    a) find the node with the least f on 
        the open list, call it "q"</p><br>
     b) pop q off the open list<br>
     c) generate q's 8 successors and set their 
